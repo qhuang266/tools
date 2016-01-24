@@ -2,7 +2,7 @@
 
 import re
 
-pattern = re.compile(r'<href="http://www.xiami.com/song/[^>]+>([^<]+)</a>')
+pattern = re.compile('href="http://www.xiami.com/song/[^>]+>([^<]+)</a>')
 
 with open("f.html") as fp:
 	for line in fp:
